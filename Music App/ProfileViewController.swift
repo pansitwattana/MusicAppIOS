@@ -25,7 +25,7 @@ class ProfileViewController: UIViewController {
             self.user.passcode = passcode
         }
         
-        studentid.text = "Student ID:\t\t\(user.id)"
+        studentid.text = "Student ID:\t\t\t\(user.id)"
         name.text = "Name:\t\t\(user.name)"
         lastName.text = "Last Name:\t\(user.lastName)"
         passcode.text = user.passcode
