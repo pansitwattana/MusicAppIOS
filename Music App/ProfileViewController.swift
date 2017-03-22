@@ -26,8 +26,8 @@ class ProfileViewController: UIViewController {
         }
         
         studentid.text = "Student ID:\t\t\(user.id)"
-        name.text = "Student Name:\t\t\(user.name)"
-        lastName.text = "Student Last Name:\t\(user.lastName)"
+        name.text = "Name:\t\t\(user.name)"
+        lastName.text = "Last Name:\t\(user.lastName)"
         passcode.text = user.passcode
         
         // Do any additional setup after loading the view.
